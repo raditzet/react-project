@@ -63,6 +63,7 @@ class Header extends Component {
                                     <Link to="/asd" className="nav-link dropdown-toggle" data-toggle="dropdown">Hallo {user.username}</Link>
                                     <div className="dropdown-menu">
                                         <Link to="/manageproduct" className="dropdown-item">Manage Product</Link>
+                                        <Link to="/cart" className="dropdown-item">Cart</Link>
                                         <Link to="/" className="dropdown-item">Link 2</Link>
                                         <button onClick={this.props.onLogoutUser} className="dropdown-item">Logout</button>
                                     </div>

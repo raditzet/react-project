@@ -5,6 +5,7 @@ import {connect} from 'react-redux'
 
 import {keepLogin} from '../actions'
 
+import Cart from './Cart'
 import Home from './Home'
 import Header from './Header'
 import Login from './Login'
@@ -44,7 +45,7 @@ class App extends Component {
                     <Route path="/register" component={Register} />
                     <Route path="/manageproduct" component={ManageProduct}/>
                     <Route path="/detailproduct/:asdfg" component={DetailProduct}/>
-                    {/* <Route path='/' exact component={SearchBar}/> */}
+                    <Route path="/cart" component={Cart}/>
                 </div>
             </BrowserRouter>
         )
