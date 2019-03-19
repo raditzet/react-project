@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "rzet",
+      "password": "satuduatiga"
+    },
+    {
+      "username": "raditz",
+      "email": "asd@lala.com",
+      "password": "ulala",
+      "id": 2
+    },
+    {
+      "username": "raditzet",
+      "email": "raditdanu@hotmail.com",
+      "password": "zetsudate69",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "name": "eeeeeeeee",
+      "desc": "ijo",
+      "price": "696969",
+      "src": "data:image/png;base64,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",
+      "id": 3
+    },
+    {
+      "name": "Kaos Oblong",
+      "desc": "abu abu",
+      "price": "76000",
+      "src": "https://de9luwq5d40h2.cloudfront.net/catalog/product/large_image/05_407044.jpg",
+      "id": 4
+    },
+    {
+      "name": "Jeans",
+      "desc": "Demin",
+      "price": "125000",
+      "src": "https://jujimufu.com/wp-content/uploads/acrobolix_product_frandenim_jeans_white.jpg",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+create-react-app (nama file)
+
+npm install bootstrap@4.0.0-alpha.6
+import 'bootstrap/dist/css/bootstrap.css'
+
+npm install --save axios redux react-redux react-router-dom
+
+npm install --save universal-cookie
+
+npm install axios --save
+
+npm install -g json-server
+
+npm install --save redux-thunk
+
+json-server -p 1997 db.json
+
+npm install --save reactstrap
+
+npm install --save bootstrap
